@@ -107,6 +107,7 @@ private extension ViewController {
         
         let percentButton = createButton(order: 2, title: "%", tag: 17)
         percentButton.backgroundColor = AppColors.topButtons
+        percentButton.setTitleColor(.black, for: .normal)
         percentButton.addTarget(self, action: #selector(buttonPressed(_:)), for: .touchUpInside)
         
         let divButton = createButton(order: 3, title: "/", tag: 18)
